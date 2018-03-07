@@ -1,2 +1,3 @@
-# trivia3
-Node.js trivia game using Socket.io
+# node.js triva game
+
+Node.js triva game with q/a stored in json
