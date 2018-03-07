@@ -1,0 +1,22 @@
+{
+  "name": "triva3",
+  "version": "0.0.1",
+  "description": "socket.io Demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "coffee-script": "*",
+    "express": "^4.12.4",
+    "socket.io": "*"
+  },
+  "engines": {
+    "node": "6.9.1"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "license": "LGPL-2.1"
+}

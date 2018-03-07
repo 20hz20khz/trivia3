@@ -1,0 +1,79 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script> -->
+    <!-- Including jQuery Form plugin -->
+<!--     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.js"></script> --> 
+    <title>node.js</title>
+    <meta name="description" content="node.js on Glitch">
+ 
+  </head>
+  <body>
+    <header>
+      <ul class="pages">
+        <li class="game page">
+          <h1 class="text-center">
+              Socket.io Demo
+          </h1>
+          <div class="textAlerts text-center">textAlerts</div>
+          <div class="row">
+            <div class="col-md-6">
+              <center>
+                <div class="" style="max-width:400px;">
+                  <h1 id="triviaQuestion" class="text-center questionText">
+                    h1#triviaQuestion
+                  </h1>
+                </div>
+                <form id="testForm" method="post" class="form-horizontal text-center">
+                  <div class="">
+                    <div class="form-group text-center">
+                      <input class="form-control input-lg userGuessInput" type="text" autocomplete="off">
+                      <button id="myButton" type="submit" class="btn btn-lg">Submit</button>
+                    </div> 
+                  </div>
+                </form>
+              </center>
+            </div>
+            <div class="col-md-6">
+              <div id="scoreColumn">
+                <div class="container-fluid">
+                  <div class="panel panel-default">
+                    <div class="panel-heading"><b>Scoreboard</b></div>
+                    <div class="panel-body scoreboardText">
+                      <ol class="scoreboardList">Panel Content</ol>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </li>
+        <li class="login page">
+          <div class="form">
+            <h3 class="title">Please enter your username:</h3>
+            <center><input class="usernameInput" type="text" maxlength="14" /></center>
+          </div>
+        </li>
+      </ul>
+    </header>
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;opacity:0.5;"></div>  
+    <script src="https://button.glitch.me/button.js" data-style="glitch"></script>
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/script.js"></script>
+  </body>
+  <script>
+
+  </script>
+</html>
